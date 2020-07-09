@@ -1,0 +1,50 @@
+
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+.wrapper {
+    background-color: #c7814c;
+    background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
+}
+
+
+header {
+    background-color: white;
+    border: 1px;
+    
+}
+
+h1 {
+    color: white;
+    background-color: teal;
+    text-align: center;
+    padding:10px;
+}
+
+h2 {
+    color:teal
+}
+
+div.col-md-7 {
+    background-color: white;
+    margin-top:50px;
+    margin-bottom: 200px;
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 300px;
+}
+
+footer {
+    color: white;
+    background-color: #36454f;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    border-top: 5px solid teal;
+}
