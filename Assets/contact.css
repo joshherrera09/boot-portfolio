@@ -30,6 +30,12 @@ div.col-md-7 {
     width: 200px;
 }
 
+.btn, btn-primary {
+    background-color: slategrey;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
 footer{ 
     color: white;
     background-color: slategrey;
