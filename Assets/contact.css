@@ -1,27 +1,19 @@
-
-/* Sizing, margin and padding */
 body {
-    height: 100%;
+    height; 100%
     margin: 0;
     padding: 0;
-   
 }
 
-/* Background image for the wrapper */
 .wrapper {
     background-color: #f5f5f5;
     background-image: url(http://www.transparenttextures.com/patterns/asfalt-dark.png);
-
 }
 
-/* Color of row #1, w/ border*/
 header {
     background-color: white;
     border-bottom: 1px solid #4AAAA5;
-    
 }
 
-/* Background color for h1 tag, aligns text to center, added padding */
 h1 {
     background-color: slategrey;
     text-align: center;
@@ -29,28 +21,21 @@ h1 {
     color: white;
 }
 
-/* About me div, backgroudn color, margins and width */
 div.col-md-7 {
     background-color: white;
-    margin-top:50px;
+    margin-top: 50px;
     margin-bottom: 200px;
     margin-right: 50px;
     margin-left: 50px;
-    width: 300px;
+    width: 200px;
 }
 
-h2 {
-    color: slategrey;
-}
-
-/* Footer:color, background color,sizing, text alignment and border */
-footer {
+footer{ 
     color: white;
     background-color: slategrey;
-    height: 50px;
+    height:50px;
     text-align: center;
     padding: 10px;
     border-top: 5px solid #4AAAA5;
-    
-    
+
 }
