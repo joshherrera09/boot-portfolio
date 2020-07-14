@@ -1,19 +1,23 @@
+/* Sizing, margin and padding */
 body {
     height; 100%
     margin: 0;
     padding: 0;
 }
 
+/* Background image for the wrapper */
 .wrapper {
     background-color: #f5f5f5;
     background-image: url(http://www.transparenttextures.com/patterns/asfalt-dark.png);
 }
 
+/* Color of row #1, w/ border*/
 header {
     background-color: white;
     border-bottom: 1px solid #4AAAA5;
 }
 
+/* Background color for h1 tag, aligns text to center, added padding */
 h1 {
     background-color: slategrey;
     text-align: center;
@@ -21,6 +25,7 @@ h1 {
     color: white;
 }
 
+/*contact div margins, sizng and colors*/
 div.col-md-7 {
     background-color: white;
     margin-top: 50px;
@@ -30,13 +35,14 @@ div.col-md-7 {
     width: 200px;
 }
 
+/*button colors and shadow*/
 .btn, btn-primary {
     background-color: slategrey;
     color: white;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-footer{ 
+/* Footer:color, background color,sizing, text alignment and border */footer{ 
     color: white;
     background-color: slategrey;
     height:50px;
@@ -46,6 +52,7 @@ footer{
 
 }
 
+/*social media link padding, sizing and text styles*/
 .fa {
     padding: 5px;
     font-size: 30px;
@@ -54,11 +61,14 @@ footer{
     text-decoration: none;
   }
 
+  /*linkedin colors*/
 .fa-linkedin {
     background: #007bb5;
     color: white;
   }
 
+
+  /*twitter colors*/
   .fa-twitter {
     background: #55ACEE;
     color: white;

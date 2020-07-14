@@ -51,7 +51,7 @@ footer {
     padding: 10px;
     border-top: 5px solid #4AAAA5;  
 }
-
+/*social media link padding, sizing and text styles*/
 .fa {
     padding: 5px;
     font-size: 30px;
@@ -60,11 +60,13 @@ footer {
     text-decoration: none;
   }
 
+  /*linkedin colors*/
 .fa-linkedin {
     background: #007bb5;
     color: white;
   }
 
+  /*twitter colors*/
   .fa-twitter {
     background: #55ACEE;
     color: white;
