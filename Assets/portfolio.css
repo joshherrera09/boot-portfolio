@@ -40,16 +40,68 @@ div.col-md-5 {
 
 h2 {
     color: slategrey;
+    margin-top: 15px;
 }
+/* Container needed to position the button. Adjust the width as needed */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
+  /* Container needed to position the button. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 100%;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 100%;
+  height: auto;
+  border: 2px solid slategray;
+ 
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: slategrey;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 87%;
+}
+
 
 /* Footer:color, background color,sizing, text alignment and border */
 footer {
+    clear: both;
     color: white;
     background-color: slategrey;
     height: 50px;
     text-align: center;
     padding: 10px;
-    border-top: 5px solid #4AAAA5;  
+    border-top: 5px solid #4AAAA5;
 }
 /*social media link padding, sizing and text styles*/
 .fa {

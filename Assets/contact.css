@@ -42,15 +42,16 @@ div.col-md-7 {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-/* Footer:color, background color,sizing, text alignment and border */footer{ 
+/* Footer:color, background color,sizing, text alignment and border */ 
+footer {
     color: white;
     background-color: slategrey;
     height:50px;
     text-align: center;
     padding: 10px;
     border-top: 5px solid #4AAAA5;
-
 }
+
 
 /*social media link padding, sizing and text styles*/
 .fa {
@@ -67,8 +68,6 @@ div.col-md-7 {
     color: white;
   }
 
-
-  /*twitter colors*/
   .fa-twitter {
     background: #55ACEE;
     color: white;

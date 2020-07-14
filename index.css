@@ -81,12 +81,3 @@ footer {
     color: white;
   }
 
-@media only screen and (min-device-width: 640px) {
-    body {
-        width: 100%
-    }
-    #navbarNavAltMarkup {
-        float:left;
-    }
-
-}
