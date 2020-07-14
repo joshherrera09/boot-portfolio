@@ -43,8 +43,14 @@ h2 {
     color: slategrey;
 }
 
+#me {
+    float:left;
+    margin-right: 10px;
+}
+
 /* Footer:color, background color,sizing, text alignment and border */
 footer {
+    clear: both;
     color: white;
     background-color: slategrey;
     height: 50px;
