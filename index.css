@@ -57,6 +57,31 @@ footer {
     text-align: center;
     padding: 10px;
     border-top: 5px solid #4AAAA5;
-    
-    
+}
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+@media only screen and (min-device-width: 640px) {
+    body {
+        width: 100%
+    }
+    #navbarNavAltMarkup {
+        float:left;
+    }
+
 }
