@@ -123,3 +123,13 @@ footer {
     background: #55ACEE;
     color: white;
   }
+
+  @media screen and (max-width: 980px) {
+    .container .btn {
+      font-size: 8px;
+    }
+    footer {
+      height: 115px;
+      padding: 20px;
+  }
+  }

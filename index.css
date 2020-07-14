@@ -81,3 +81,12 @@ footer {
     color: white;
   }
 
+  @media screen and (max-width: 980px) {
+    .navbar-nav {
+        float: left;
+    }
+    footer {
+        height: 115px;
+        padding: 20px;
+    }
+}
