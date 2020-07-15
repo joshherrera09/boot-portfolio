@@ -1,1 +1,86 @@
+/* Sizing, margin and padding */
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+   
+}
+
+/* Background image for the wrapper */
+.wrapper {
+    background-color: #f5f5f5;
+    background-image: url(http://www.transparenttextures.com/patterns/asfalt-dark.png);
+
+}
+
+/* Color of row #1, w/ border*/
+header {
+    background-color: white;
+    border-bottom: 1px solid #4AAAA5;
+    
+}
+
+/* Background color for h1 tag, aligns text to center, added padding */
+h1 {
+    background-color: slategrey;
+    text-align: center;
+    padding:10px;
+    color: white;
+}
+#me {
+    float:left;
+    margin-right: 10px;
+}
+
+.col-md-7 {
+   clear: both;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    margin-left: 50px;
+}
+
+
+
+/* Footer:color, background color,sizing, text alignment and border */ 
+footer {
+    color: white;
+    background-color: slategrey;
+    height:50px;
+    text-align: center;
+    padding: 10px;
+    border-top: 5px solid #4AAAA5;
+}
+
+
+/*social media link padding, sizing and text styles*/
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  /*linkedin colors*/
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  @media screen and (max-width: 980px) {
+    .navbar-nav {
+        float: left;
+        margin: 0 auto;
+
+    }
+    footer {
+        height: 115px;
+        padding: 20px;
+    }
 
