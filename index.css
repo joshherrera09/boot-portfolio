@@ -66,9 +66,14 @@ footer {
     color: white;
   }
 
-  .fa-twitter {
+.fa-twitter {
     background: #55ACEE;
     color: white;
+  }
+
+  #resume {
+      background-color: white;
+      color: black;
   }
 
   @media screen and (max-width: 980px) {
