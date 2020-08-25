@@ -1,4 +1,4 @@
-# boot-portfolio
+# Personal Portfolio
 Personal bootstrap responsive portfolio
 
 ## Installation
@@ -33,5 +33,13 @@ This page will be used to display our work throughout the course.  Below is a sc
 ![image](https://user-images.githubusercontent.com/61304861/87487141-bdc7ce80-c5f1-11ea-8b03-b70280bdf4b1.png)
 
 ![image](https://user-images.githubusercontent.com/61304861/87487180-d46e2580-c5f1-11ea-87c3-b27163b0b4ff.png)
+
+## Link
+
+Portfolio (https://joshherrera09.github.io/boot-portfolio/)
+
+## Contact Information
+
+Email: joshherrera09@gmail.com
 
 
