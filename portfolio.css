@@ -41,6 +41,7 @@ div.col-md-5 {
 h2 {
     color: slategrey;
     margin-top: 15px;
+    margin-left: 24px;
 }
 /* Container needed to position the button. Adjust the width as needed */
 
@@ -122,6 +123,12 @@ footer {
   .fa-twitter {
     background: #55ACEE;
     color: white;
+  }
+
+  .card {
+    padding: 8px;
+    margin: 12px;
+    margin-left: 24px;
   }
 
   @media screen and (max-width: 980px) {
